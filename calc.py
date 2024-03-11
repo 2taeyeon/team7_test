@@ -1,4 +1,12 @@
-<<<<<<< HEAD
+def decrease(x, y):
+    result = x - y
+    return result
+
+
+def add(x, y):
+    return x + y
+
+
 def operation(num1, operator, num2):
 
     if operator == "+":
@@ -18,12 +26,11 @@ num2 = int(input("두 번째 숫자를 입력하세요: "))
 result = operation(num1, operator, num2)
 print(f"계산 결과: {result}")
 
-# 테스트용
-=======
-def decrease(x,y):
+
+def decrease(x, y):
     result = x - y
     return result
 
+
 def add(x, y):
     return x + y
->>>>>>> d4065f05a1c6795af04292d9dd8c70b3ce0589b5
