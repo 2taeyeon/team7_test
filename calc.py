@@ -1,10 +1,18 @@
-<<<<<<< HEAD
+def decrease(x, y):
+    result = x - y
+    return result
+
+
+def add(x, y):
+    return x + y
+
+
 def operation(num1, operator, num2):
 
     if operator == "+":
         return add(num1, num2)
     elif operator == "-":
-        return subtract(num1, num2)
+        return decrease(num1, num2)
     elif operator == "*":
         return multiply(num1, num2)
     elif operator == "/":
@@ -17,6 +25,7 @@ num2 = int(input("두 번째 숫자를 입력하세요: "))
 
 result = operation(num1, operator, num2)
 print(f"계산 결과: {result}")
+<<<<<<< HEAD
 
 # 테스트용
 =======
@@ -27,3 +36,5 @@ def decrease(x,y):
 
 def add(x, y):
     return x + y
+=======
+>>>>>>> 6e29183e98e07c9e73e600898a9681b926f2ca8f
