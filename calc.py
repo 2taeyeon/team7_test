@@ -12,7 +12,7 @@ def operation(num1, operator, num2):
     if operator == "+":
         return add(num1, num2)
     elif operator == "-":
-        return subtract(num1, num2)
+        return decrease(num1, num2)
     elif operator == "*":
         return multiply(num1, num2)
     elif operator == "/":
@@ -25,12 +25,3 @@ num2 = int(input("두 번째 숫자를 입력하세요: "))
 
 result = operation(num1, operator, num2)
 print(f"계산 결과: {result}")
-
-
-def decrease(x, y):
-    result = x - y
-    return result
-
-
-def add(x, y):
-    return x + y
