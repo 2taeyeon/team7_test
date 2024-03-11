@@ -16,3 +16,5 @@ num2 = int(input("두 번째 숫자를 입력하세요: "))
 
 result = operation(num1, operator, num2)
 print(f"계산 결과: {result}")
+
+# 테스트용
