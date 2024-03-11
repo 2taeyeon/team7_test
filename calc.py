@@ -24,6 +24,6 @@ def decrease(x,y):
     result = x - y
     return result
 
+
 def add(x, y):
     return x + y
->>>>>>> d4065f05a1c6795af04292d9dd8c70b3ce0589b5
